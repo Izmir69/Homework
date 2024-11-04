@@ -9,8 +9,8 @@ print("Last element:", colors[-1])
 #Modifying a List
 numbers=[10, 20, 30, 40, 50]
 numbers[1]=25
-numbers[-1]=60
-print (numbers)
+numbers.append(60)
+print(numbers)
 #List Slicing
 names = ['Alice', 'Bob', 'Charlie', 'David', 'Emma']
 subset = names[:3]
